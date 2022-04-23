@@ -26,8 +26,7 @@ $ docker-compose up -d --build
 ```
 
 # Usage
-- ブラウザで以下のURLにアクセスします\n
-http://localhost:8888
+- ブラウザで[http://localhost:8888](http://localhost:8888)にアクセスします
 
 # Document
 - work配下に設問notebookを配置
