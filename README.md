@@ -26,7 +26,7 @@ $ docker-compose up -d --build
 ```
 
 # Usage
-- ブラウザで以下のURLにアクセスします
+- ブラウザで以下のURLにアクセスします\n
 http://localhost:8888
 
 # Document
