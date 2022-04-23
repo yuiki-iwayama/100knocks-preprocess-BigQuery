@@ -29,6 +29,6 @@ $ docker-compose up -d --build
 - ブラウザで[http://localhost:8888](http://localhost:8888)にアクセスします
 
 # Document
-- work配下に設問BigQuery/Pythonのnotebookを配置
+- work配下にBigQuery/Pythonの設問notebookを配置
 - work/dataにデータセットを配置
 - その他の情報は[データサイエンス100本ノック（構造化データ加工編）](https://github.com/The-Japan-DataScientist-Society/100knocks-preprocess)をご確認ください
