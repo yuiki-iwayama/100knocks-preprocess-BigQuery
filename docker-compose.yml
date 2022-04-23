@@ -3,7 +3,7 @@ services:
   jupyterlab:
     build:
       context: .
-      dockerfile: ./Docker/Dockerfile.jupyterlab
+      dockerfile: ./docker/Dockerfile
     image: "jupyterlab"
     container_name: "jupyterlab"
     environment:
