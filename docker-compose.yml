@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  jupyterlab:
+    build:
+      context: .
+      dockerfile: ./Docker/Dockerfile.jupyterlab
+    image: "jupyterlab"
+    container_name: "jupyterlab"
+    environment:
+      - DISPLAY=${HOST_NAME}:0
+      - GCP_IAM=$GCP_IAM
+      - GCP_PROJECT_ID=$GCP_PROJECT_ID
+      - GCP_DATA=$GCP_DATA
+      - GOOGLE_APPLICATION_CREDENTIALS=/run/secrets/user_gcp_key
+    ports:
+      - 8888:8888
+    restart: always
+    volumes:
+      - ./work:/work
+    secrets:
+      - user_gcp_key
+
+secrets:
+  user_gcp_key:
+    file: $GCP_KEY_PATH
