@@ -14,11 +14,17 @@
 ## GCPアカウント登録
 [【画像で説明】Google Cloud Platform (GCP)の無料トライアルでアカウント登録](https://qiita.com/komiya_____/items/14bd06d0866f182ae912)をご参照ください
 
+## プロジェクトの作成
+[ステップ 2: Google Cloud プロジェクトを作成する](https://cloud.google.com/apigee/docs/hybrid/v1.2/precog-gcpproject?hl=ja)をご参照ください
+
 ## サービスアカウントキーの作成
 [サービス アカウントを使用して承認する](https://cloud.google.com/sdk/docs/authorizing?hl=ja#authorizing_with_a_service_account)をご参照ください
 
 # Install
-- buildする前に作成したサービスアカウントキーのパスとサービスアカウント情報を`.env`に必要事項を記載してください
+- buildする前に以下の項目を`.env`に必要事項を記載してください
+1. 作成したサービスアカウントキーのパス
+2. サービスアカウント情報
+3. プロジェクトID
 ```
 $ git clone git@github.com:yuiki-iwayama
 $ cd JupyterLab-Docker
