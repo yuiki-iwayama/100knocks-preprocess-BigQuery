@@ -7,7 +7,6 @@ services:
     image: "jupyterlab"
     container_name: "jupyterlab"
     environment:
-      - DISPLAY=${HOST_NAME}:0
       - GCP_IAM=$GCP_IAM
       - GCP_PROJECT_ID=$GCP_PROJECT_ID
       - GCP_DATA=$GCP_DATA
