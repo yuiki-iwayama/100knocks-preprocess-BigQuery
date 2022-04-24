@@ -14,7 +14,7 @@ bq --location=asia-northeast1 load \
 --source_format=CSV --skip_leading_rows 1 \
 $GCP_PROJECT_ID:$GCP_DATA.customer \
 /work/data/customer.csv \
-customer_id:STRING,customer_name:STRING,gender_cd:STRING,gender:STRING,birth_date:DATE,age:INT64,postal_cd:STRING,address:STRING,application_store_cd:STRING,application_date:STRING,status_cd:STRING
+customer_id:STRING,customer_name:STRING,gender_cd:STRING,gender:STRING,birth_day:DATE,age:INT64,postal_cd:STRING,address:STRING,application_store_cd:STRING,application_date:STRING,status_cd:STRING
 
 # category
 bq --location=asia-northeast1 load \
