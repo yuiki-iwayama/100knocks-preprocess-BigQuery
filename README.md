@@ -12,7 +12,7 @@
 
 # 事前準備
 ## GCPアカウント登録
-[【画像で説明】Google Cloud Platform (GCP)の無料トライアルでアカウント登録](https://qiita.com/komiya_____/items/14bd06d0866f182ae912)をご参照ください
+[ステップ 1: Google Cloud アカウントを作成する](https://cloud.google.com/apigee/docs/hybrid/v1.2/precog-gcpaccount?hl=ja)をご参照ください
 
 ## プロジェクトの作成
 [ステップ 2: Google Cloud プロジェクトを作成する](https://cloud.google.com/apigee/docs/hybrid/v1.2/precog-gcpproject?hl=ja)をご参照ください
