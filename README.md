@@ -15,10 +15,10 @@
 [【画像で説明】Google Cloud Platform (GCP)の無料トライアルでアカウント登録](https://qiita.com/komiya_____/items/14bd06d0866f182ae912)をご参照ください
 
 ## サービスアカウントキーの作成
-[データサイエンス100本ノック（構造化データ加工編）をBigQueryでやりたいに応える](https://zenn.dev/ds_rd/articles/100knocks_preprocess_bigquery)のサービスアカウントキーの作成をご参照ください
+[サービス アカウントを使用して承認する](https://cloud.google.com/sdk/docs/authorizing?hl=ja#authorizing_with_a_service_account)をご参照ください
 
 # Install
-- buildする前に.envに必要事項を記載してください
+- buildする前に作成したサービスアカウントキーのパスとサービスアカウント情報を`.env`に必要事項を記載してください
 ```
 $ git clone git@github.com:yuiki-iwayama
 $ cd JupyterLab-Docker
