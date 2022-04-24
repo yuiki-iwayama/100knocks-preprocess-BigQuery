@@ -22,10 +22,10 @@
 
 # Install
 - buildする前に以下の項目を`.env`に必要事項を記載してください
-1. GCP_KEY_PATH=作成したサービスアカウントキーのパス
-2. GCP_IAM=サービスアカウント情報
-3. GCP_PROJECT_ID=プロジェクトID
-4. GCP_DATA=作りたいデータセット名
+1. `GCP_KEY_PATH=`作成したサービスアカウントキーのパス
+2. `GCP_IAM=`サービスアカウント情報
+3. `GCP_PROJECT_ID=`プロジェクトID
+4. `GCP_DATA=`作りたいデータセット名
 
 ```
 $ git clone git@github.com:yuiki-iwayama
