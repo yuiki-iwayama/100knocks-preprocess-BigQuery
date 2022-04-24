@@ -29,7 +29,7 @@
 
 ```
 $ git clone git@github.com:yuiki-iwayama/100knocks-preprocess-BigQuery.git
-$ cd JupyterLab-Docker
+$ cd 100knocks-preprocess-BigQuery
 $ docker-compose up -d --build
 ```
 
