@@ -28,7 +28,7 @@
 4. `GCP_DATA=`作りたいデータセット名
 
 ```
-$ git clone git@github.com:yuiki-iwayama
+$ git clone git@github.com:yuiki-iwayama/100knocks-preprocess-BigQuery.git
 $ cd JupyterLab-Docker
 $ docker-compose up -d --build
 ```
