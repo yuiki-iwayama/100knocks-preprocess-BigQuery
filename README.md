@@ -12,16 +12,24 @@
 
 # 事前準備
 ## GCPアカウント登録
-[【画像で説明】Google Cloud Platform (GCP)の無料トライアルでアカウント登録](https://qiita.com/komiya_____/items/14bd06d0866f182ae912)をご参照ください
+[ステップ 1: Google Cloud アカウントを作成する](https://cloud.google.com/apigee/docs/hybrid/v1.2/precog-gcpaccount?hl=ja)をご参照ください
+
+## プロジェクトの作成
+[ステップ 2: Google Cloud プロジェクトを作成する](https://cloud.google.com/apigee/docs/hybrid/v1.2/precog-gcpproject?hl=ja)をご参照ください
 
 ## サービスアカウントキーの作成
-[データサイエンス100本ノック（構造化データ加工編）をBigQueryでやりたいに応える](https://zenn.dev/ds_rd/articles/100knocks_preprocess_bigquery)のサービスアカウントキーの作成をご参照ください
+[サービス アカウントを使用して承認する](https://cloud.google.com/sdk/docs/authorizing?hl=ja#authorizing_with_a_service_account)をご参照ください
 
 # Install
-- buildする前に.envに必要事項を記載してください
+- buildする前に以下の項目を`.env`に必要事項を記載してください
+1. `GCP_KEY_PATH=`作成したサービスアカウントキーのパス
+2. `GCP_IAM=`サービスアカウントのメール
+3. `GCP_PROJECT_ID=`プロジェクトID
+4. `GCP_DATA=`作りたいデータセット名
+
 ```
-$ git clone git@github.com:yuiki-iwayama
-$ cd JupyterLab-Docker
+$ git clone git@github.com:yuiki-iwayama/100knocks-preprocess-BigQuery.git
+$ cd 100knocks-preprocess-BigQuery
 $ docker-compose up -d --build
 ```
 
