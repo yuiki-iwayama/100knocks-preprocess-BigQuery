@@ -7,6 +7,7 @@ gcloud config set compute/region asia-northeast1
 gcloud config set compute/zone b
 
 # データをBigQueryへ流し込む
+bq rm -f -r $GCP_PROJECT_ID:$GCP_DATA
 bq --location=asia-northeast1 mk --dataset $GCP_PROJECT_ID:$GCP_DATA
 
 # customer
