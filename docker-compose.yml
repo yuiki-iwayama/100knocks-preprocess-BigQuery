@@ -15,7 +15,7 @@ services:
       - 8888:8888
     restart: always
     volumes:
-      - ./work:/work
+      - ./work:/home/jovyan/work
     secrets:
       - user_gcp_key
 
